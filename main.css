@@ -16,14 +16,41 @@ body{
     color:beige;
     text-shadow:1px 1px 0 rgba(2,2,2,2);
     position: absolute;
-            left: 50%;
-            top: 34%;
+            left: 26%;
+            top: 38%;
             transform:translateX(-50%) translateY(-50%);
 }
 
 .container{
     width:75%;
     margin:auto auto;
+}
+
+#spotify{
+    position:relative;
+    top: 10px;
+    right:-100px;
+    margin 0 0;
+    padding:0px 0px; 
+}
+
+#spotify2{
+    position:relative;
+    top: -525px;
+    right:-815px;
+    margin 0 0;
+    padding:0px 0px;
+}
+
+p{
+    font-family: "Amatic SC";
+    font-size: 3em;
+    color:beige;
+    position:relative;
+    float: right;
+    top:-40px;
+    right:1350px;
+    text-shadow:2px 2px 0 rgba(2,2,2,2);
 }
 
 header{
