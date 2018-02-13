@@ -28,18 +28,10 @@ body{
 
 #spotify{
     position:relative;
-    top: 10px;
-    right:-100px;
+    top: 5px;
+    right:-1118px;
     margin 0 0;
     padding:0px 0px; 
-}
-
-#spotify2{
-    position:relative;
-    top: -525px;
-    right:-815px;
-    margin 0 0;
-    padding:0px 0px;
 }
 
 p{
@@ -49,7 +41,7 @@ p{
     position:relative;
     float: right;
     top:-40px;
-    right:1350px;
+    right:315px;
     text-shadow:2px 2px 0 rgba(2,2,2,2);
 }
 

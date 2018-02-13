@@ -15,15 +15,8 @@ body{
 
 #spotify{
     position:relative;
+    top:5px;
     padding:0px 0px; 
-}
-
-#spotify2{
-    position:relative;
-    top: -525px;
-    right:-815px;
-    margin 0 0;
-    padding:0px 0px;
 }
 
 p{
