@@ -62,6 +62,34 @@ li{
     position:relative;
 }
 
+#guitarp1{
+    width:600px;
+    position:relative;
+    top:180px;
+    margin:0px;
+    padding:0px;
+    transform: translateX(-50%);
+}
+
+#box1 a:active{
+    text-decoration-line: none;
+    color:floralwhite;
+}
+
+#box1 a:link{
+    text-decoration-line: none;
+}
+
+#box1 a:visited{
+    text-decoration-line: none;
+    color:forestgreen
+}
+
+#box1 a:hover{
+    text-decoration-line: none;
+    color:darkgrey;
+}
+
 .container{
     width:75%;
     margin:auto auto;
