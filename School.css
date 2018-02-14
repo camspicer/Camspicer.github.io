@@ -1,5 +1,7 @@
 body,html,{
     min-height: 100%;
+    margin:0px;
+    padding:0px;
 }
 
 body{
@@ -21,18 +23,6 @@ body{
     margin: 0px;
     padding:0px 0px;
 }
-
-p{
-    font-family: "Amatic SC";
-    font-size: 3em;
-    color:beige;
-    position:relative;
-    float: right;
-    top:0px;
-    right:1350px;
-    text-shadow:2px 2px 0 rgba(2,2,2,2);
-}
-
 
 #box1{
     font-family: "Amatic SC";
@@ -65,22 +55,28 @@ p{
 h2{
     font-family: "Amatic SC";
     font-size:2em;
-    color:beige;
     margin:0px;
-    transform: translateX(350%)translateY(50px);
+    padding:0px;
+    color:beige;
     display:table-cell;
     position: relative;
+    float:right;
+    top:15px;
+    left:-500px;
+    
 }
 
 li{
-    position:relative;
+    margin:0px;
+    padding:0px;
+    
 }
 
 #financel1{
     position:relative;
     text-align: left;
-    top:150px;
-    left:-150px;
+    top:200px;
+    left:0px;
     
 }
 

@@ -1,120 +1,165 @@
 body,html,{
     min-height: 100%;
+    margin:0px;
+    padding:0px;
 }
 
 body{
-    margin:0;
-    padding:0;
-    background-image: url(Background.jpg);
+    margin:0px;
+    padding:0px;
+    background-color: floralwhite;
     background-repeat: no-repeat;
     background-size: cover;
     font-weight:500
 }
-   
-}
 
-#spotify{
+#spotify2{
     position:relative;
-    top:5px;
-    padding:0px 0px; 
+    top:15px;
+    right:25px;
+    float:right;
+    margin: 0px;
+    padding:0px 0px;
 }
 
-p{
+#family{
+    font-family: "Amatic SC";
+    font-size: 2em;
+    color:floralwhite;
+    text-shadow: 1px 1px 0 rgba(2,2,2,2);
+    width:100vw;
+    height:136vh;
+    background-image: url(family.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    display:table;
+    background-attachment: relative;
+}
+
+#tucker{
     font-family: "Amatic SC";
     font-size: 3em;
-    color:beige;
-    position:relative;
-    float: right;
-    top:-40px;
-    right:1350px;
-    text-shadow:2px 2px 0 rgba(2,2,2,2);
-}
-
-
-#box1{
-    font-family: "Amatic SC";
-    font-size: 2em;
     color:floralwhite;
-    text-shadow: 1px 1px 0 rgba(2,2,2,2);
-    height:100vh;
+    text-shadow: 2px 2px 0 rgba(2,2,2,2);
+    height:100%;
     width:100%;
-    background-image: url(Guitar%20Background.jpg);
-    background-size: cover;
+    background-image: url(tucker.jpg);
+    background-size: auto;
+    background-repeat: no-repeat;
     display:table;
     background-attachment: fixed;
 }
 
-#box2{
+#tucker2{
+    height:100%;
+    width:100%;
+    background-image: url(tucker2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display:table;
+    background-attachment: fixed;
+}
+
+#jack{
     font-family: "Amatic SC";
-    font-size: 2em;
+    font-size: 3em;
     color:floralwhite;
-    text-shadow: 1px 1px 0 rgba(2,2,2,2);
-    height:100vh;
+    text-shadow: 2px 2px 0 rgba(2,2,2,2);
+    height:100vw;
     width:100%;
-    background-image: url(Hockey.JPG);
-    background-size: cover;
+    background-image: url(jack.jpg);
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-position: right;
     display:table;
     background-attachment: fixed;
 }
 
-#box3{
-    height:100vh;
-    width:100%;
-    background-image: url(Woodworking.jpg);
-    background-size: cover;    
-    display:table;
-    background-attachment: fixed;
-}
-
-#box4{
-    height:100vh;
-    width:100%;
-    background-image: url(Producing.jpg);
-    background-size: cover;
-    display:table;
-    background-attachment: fixed;
-    margin-bottom: 25px
-}
-            
-h1{
+#paige{
     font-family: "Amatic SC";
-    font-size:3em;
+    font-size: 3em;
     color:floralwhite;
-    margin:0px;
-    display:table-cell;
-    top: 125px;
-    position: relative;
+    text-shadow: 2px 2px 0 rgba(2,2,2,2);
+    height:100%;
+    width:100%;
+    background-image: url(paige.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: right;
+    display:table;
+    background-attachment: fixed;
+}
+
+#bailey{
+    font-family: "Amatic SC";
+    font-size: 3em;
+    color:floralwhite;
+    text-shadow: 2px 2px 0 rgba(2,2,2,2);
+    height:100%;
+    width:100%;
+    background-image: url(bailey.jpg);
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-position: right;
+    display:table;
+    background-attachment: fixed;
+}
+
+#linnea{
+    font-family: "Amatic SC";
+    font-size: 3em;
+    color:floralwhite;
+    text-shadow: 2px 2px 0 rgba(2,2,2,2);
+    height:100vw;
+    width:100%;
+    background-image: url(linnea.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right;
+    display:table;
+    background-attachment: fixed;
+}
+
+#chuck{
+    font-family: "Amatic SC";
+    font-size: 3em;
+    color:floralwhite;
+    text-shadow: 2px 2px 0 rgba(2,2,2,2);
+    height:100vw;
+    width:100%;
+    margin-bottom: 50px;
+    background-image: url(chuck.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: right;
+    display:table;
+    background-attachment: fixed;
 }
 
 h2{
     font-family: "Amatic SC";
-    font-size:3em;
-    color:floralwhite;
+    font-size:2em;
     margin:0px;
+    padding:0px;
+    color:beige;
     display:table-cell;
     position: relative;
+
+   
 }
 
 li{
-    position:relative;
-}
-
-#guitarp1{
-    width:600px;
-    position:relative;
-    top:180px;
     margin:0px;
     padding:0px;
-    transform: translateX(-50%);
+    
 }
 
-#hockeyp1{
-    width:600px;
+#financel1{
     position:relative;
-    top:50px;
-    margin:0px;
-    padding:0px;
-    transform: translateX(-50%);
+    text-align: right;
+    float:right;
+    left:0px;
+    
 }
 
 #box1 a:active{
