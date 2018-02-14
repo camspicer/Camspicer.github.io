@@ -1,16 +1,8 @@
-body,html,{
-    min-height: 100%;
-}
-
 body{
-    margin:0;
-    padding:0;
-    background-image: url(Background.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    font-weight:500
-}
-   
+    margin:0px;
+    padding:0px;
+    max-width: 100%;
+    max-height:100%
 }
 
 #spotify{
@@ -20,10 +12,13 @@ body{
 
 #spotify2{
     position:relative;
-    top: -390px;
-    right:-860px;
-    margin 0 0;
-    padding:0px 0px;
+    top: -395px;
+    right:15px;
+    margin 0;
+    padding:0px;
+    z-index: 5;
+    float:right;
+    
 }
 
 p{
@@ -79,7 +74,7 @@ p{
   
 #clockproject{
     position:relative;
-    top:25px;
+    top:75px;
     left:-1150px
 }
 
@@ -89,8 +84,10 @@ h1{
     color:floralwhite;
     margin:0px;
     display:table-cell;
-    top: 125px;
+    top: 25px;
+    left:710px;
     position: relative;
+    width:250px
 }
 
 h2{
@@ -100,37 +97,38 @@ h2{
     margin:0px;
     display:table-cell;
     position: relative;
+    width:250px;
+    left:720px;
+    top:30px;
 }
 
 h3{
     font-family: "Amatic SC";
     font-size:2.5em;
-    color:floralwhite;
+    color:beige;
     margin:0px;
     display:table-cell;
     position: relative;
-    top:-425px;
-    left: 10px;
-    z-index: 0
-}
-
-li{
-    position:relative;
+    top:-412px;
+    left: 710px;
+    z-index: 0;
+    width: 250px;
 }
 
 #guitarl{
     width:600px;
     position:relative;
-    top:180px;
+    top:130px;
     margin:0px;
     padding:0px;
-    transform: translateX(-50%);
+    transform: translateX(-38%);
 }
 
 #hockeyl1{
     width:500px;
     position:relative;
-    top:50px;
+    top:150px;
+    left:25px;
     margin:0px;
     padding:0px;
     transform: translateX(-50%);
@@ -141,16 +139,16 @@ li{
     position:relative;
     margin:0px;
     padding:0px;
-    transform: translateX(100%) translateY(-85%);
+    transform: translateX(125%) translateY(-80%);
     text-align: right;
 }
 
 #Woodworkingl{
-    width:600px;
+    width:800px;
     position:relative;
     float:left;
-    top:100px;
-    left:200px;
+    top:150px;
+    left:350px;
     margin:0px;
     padding:0px;
     transform: translateX(-50%);

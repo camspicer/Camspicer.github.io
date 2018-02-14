@@ -5,22 +5,20 @@ body,html,{
 body{
     margin:0;
     padding:0;
-    background-image: url(Background.jpg);
+    background-image: url(blackbear.jpg);
     background-repeat: no-repeat;
-    background-size: cover;
+    background-position: center;
+    background-position: top;
+    background-size:auto;
     font-weight:500
-}
-   
-#spotify{
-    position:relative;
-    padding:0px 0px; 
 }
 
 #spotify2{
     position:relative;
-    top: -525px;
-    right:-815px;
-    margin 0 0;
+    top:15px;
+    right:15px;
+    float:right;
+    margin: 0px;
     padding:0px 0px;
 }
 
@@ -30,7 +28,7 @@ p{
     color:beige;
     position:relative;
     float: right;
-    top:-40px;
+    top:0px;
     right:1350px;
     text-shadow:2px 2px 0 rgba(2,2,2,2);
 }
@@ -43,59 +41,33 @@ p{
     text-shadow: 1px 1px 0 rgba(2,2,2,2);
     height:100vh;
     width:100%;
-    background-image: url(Guitar%20Background.jpg);
+    background-image: url(umaine.jpg);
     background-size: cover;
+    opacity: 0.9;
+    filter: alpha(opacity=90);
     display:table;
     background-attachment: fixed;
 }
 
 #box2{
     font-family: "Amatic SC";
-    font-size: 2em;
+    font-size: 3em;
     color:floralwhite;
-    text-shadow: 1px 1px 0 rgba(2,2,2,2);
+    text-shadow: 2px 2px 0 rgba(2,2,2,2);
     height:100vh;
     width:100%;
-    background-image: url(Hockey.JPG);
+    background-image: url(financialeconomics.jpg);
     background-size: cover;
     display:table;
     background-attachment: fixed;
-}
-
-#box3{
-    height:100vh;
-    width:100%;
-    background-image: url(Woodworking.jpg);
-    background-size: cover;    
-    display:table;
-    background-attachment: fixed;
-}
-
-#box4{
-    height:100vh;
-    width:100%;
-    background-image: url(Producing.jpg);
-    background-size: cover;
-    display:table;
-    background-attachment: fixed;
-    margin-bottom: 25px
-}
-            
-h1{
-    font-family: "Amatic SC";
-    font-size:3em;
-    color:floralwhite;
-    margin:0px;
-    display:table-cell;
-    top: 125px;
-    position: relative;
 }
 
 h2{
     font-family: "Amatic SC";
-    font-size:3em;
-    color:floralwhite;
+    font-size:2em;
+    color:beige;
     margin:0px;
+    transform: translateX(350%)translateY(50px);
     display:table-cell;
     position: relative;
 }
@@ -104,22 +76,12 @@ li{
     position:relative;
 }
 
-#guitarp1{
-    width:600px;
+#financel1{
     position:relative;
-    top:180px;
-    margin:0px;
-    padding:0px;
-    transform: translateX(-50%);
-}
-
-#hockeyp1{
-    width:600px;
-    position:relative;
-    top:50px;
-    margin:0px;
-    padding:0px;
-    transform: translateX(-50%);
+    text-align: left;
+    top:150px;
+    left:-150px;
+    
 }
 
 #box1 a:active{
