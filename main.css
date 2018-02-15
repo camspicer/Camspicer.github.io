@@ -35,10 +35,10 @@ body{
 }
 
 #spotifyfollow{
-     position: absolute;
-            left: 12%;
-            top: 95%;
-            transform:translateX(-50%) translateY(-50%);
+    position: relative;
+    float:left;
+    top:725px;
+    left:15px;
 }
 
 p{
