@@ -13,6 +13,18 @@ body{
     font-weight:500
 }
 
+.top-header{
+    font-family: "Nanum Brush Script", Cursive;
+    font-size:4em;
+    font-weight:500;
+    color:beige;
+    text-shadow:2px 2px 2px rgba(2,2,2,2);
+    position: absolute;
+            left: 50%;
+            top: 70%;
+            transform:translateX(-50%) translateY(-50%);
+}
+
 #spotify2{
     position:relative;
     top:15px;
@@ -36,11 +48,9 @@ body{
     background-attachment: relative;
 }
 
+
+
 #tucker{
-    font-family: "Amatic SC";
-    font-size: 3em;
-    color:floralwhite;
-    text-shadow: 2px 2px 0 rgba(2,2,2,2);
     height:100%;
     width:100%;
     background-image: url(tucker.jpg);
@@ -48,7 +58,47 @@ body{
     background-repeat: no-repeat;
     display:table;
     background-attachment: fixed;
+    right:100px;
 }
+
+h1{
+    font-family: "Amatic SC";
+    font-size:6em;
+    text-shadow: 2px 2px 0 rgba(2,2,2,2);
+    margin:0px;
+    padding:0px;
+    color:beige;
+    display:table-cell;
+    position: relative; 
+    text-align:left;
+    float:left;
+    top:115px;
+    left:15px;
+}
+
+#tuckerp{
+    font-family:"Handlee";
+    font-size: 4em;
+    color:floralwhite;
+    text-shadow: 1px 1px 0 rgba(2,2,2,2);
+    width:30%;
+    text-align: right;
+    float:right;
+    margin-right:50px;
+    
+}
+
+#tuckerl{
+    font-family: "Amatic SC";
+    font-size: 2.5em;
+    color:black;
+    position:relative;
+    text-align: left;
+    float:right;
+    width:45%;
+    left:0px;
+}
+
 
 #tucker2{
     height:100%;
@@ -61,10 +111,6 @@ body{
 }
 
 #jack{
-    font-family: "Amatic SC";
-    font-size: 3em;
-    color:floralwhite;
-    text-shadow: 2px 2px 0 rgba(2,2,2,2);
     height:100vw;
     width:100%;
     background-image: url(jack.jpg);
@@ -73,13 +119,45 @@ body{
     background-position: right;
     display:table;
     background-attachment: fixed;
+    text-align:left;
+    float:left;
+    top:115px;
+    left:15px;
+}
+
+#jackl{
+    font-family: "Amatic SC";
+    font-size: 2.5em;
+    color:black;
+    position:relative;
+    text-align: left;
+    float:left;
+    width:45%;
+    top:110px;
+    left:0px;
+}
+
+#jack2{
+    float:left;
+    transform: translateX(35%) translateY(10%);
+}
+
+h2{
+    font-family: "Amatic SC";
+    font-size:6em;
+    text-shadow: 4px 4px 0 rgba(2,2,2,2);
+    margin-right:35px;
+    margin-top:25px;
+    padding:0px;
+    top:30px;
+    color:beige;
+    display:table-cell;
+    position: relative;
+    float: right;
 }
 
 #paige{
-    font-family: "Amatic SC";
     font-size: 3em;
-    color:floralwhite;
-    text-shadow: 2px 2px 0 rgba(2,2,2,2);
     height:100%;
     width:100%;
     background-image: url(paige.jpg);
@@ -88,6 +166,62 @@ body{
     background-position: right;
     display:table;
     background-attachment: fixed;
+}
+
+h3{
+    font-family: "Amatic SC";
+    font-size:4em;
+    text-shadow: 4px 4px 0 rgba(2,2,2,2);
+    margin-left:35px;
+    margin-bottom: 25px;
+    padding:0px;
+    top:250px;
+    color:beige;
+    display:table-cell;
+    position: relative;
+    float: left;
+}
+
+#paigel{
+    font-family: "Amatic SC";
+    font-size: 1em;
+    color:black;
+    position:relative;
+    text-align: right;
+    float:right;
+    width:30%;
+    top:-35px;
+    padding:0 0;
+    margin-top: 0px;
+    margin-right: 25px;
+}
+
+#paigel1{
+    font-family: "Amatic SC";
+    font-size: 1em;
+    color:black;
+    text-align: left;
+    float:right;
+    width:20%;
+    transform: translateX(170%) translateY(44%);
+    padding:0 0;
+    margin-top: 0px;
+    margin-right: 25px;
+}
+
+#paigel2{
+    font-family: "Amatic SC";
+    font-size: .75em;
+    color:black;
+    text-align: left;
+    float:left;
+    width:20%;
+    padding:0 0;
+    margin-top: 0px;
+    margin-right: 25px;
+    position: relative;
+    top:625px;
+    transform: translateX(-80%)
 }
 
 #bailey{
@@ -136,17 +270,7 @@ body{
     background-attachment: fixed;
 }
 
-h2{
-    font-family: "Amatic SC";
-    font-size:2em;
-    margin:0px;
-    padding:0px;
-    color:beige;
-    display:table-cell;
-    position: relative;
 
-   
-}
 
 li{
     margin:0px;
@@ -154,13 +278,7 @@ li{
     
 }
 
-#financel1{
-    position:relative;
-    text-align: right;
-    float:right;
-    left:0px;
-    
-}
+
 
 #box1 a:active{
     text-decoration-line: none;
