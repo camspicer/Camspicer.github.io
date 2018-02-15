@@ -5,35 +5,19 @@ body,html,{
 body{
     margin:0;
     padding:0;
-    background-image: url(Background.jpg);
+    background-color: floralwhite;
     background-repeat: no-repeat;
     background-size: cover;
     font-weight:500
 }
    
-
-#spotify{
-    position:relative;
-    padding:0px 0px; 
-}
-
 #spotify2{
     position:relative;
-    top: -525px;
-    right:-815px;
-    margin 0 0;
+    top:15px;
+    right:25px;
+    float:right;
+    margin: 0px;
     padding:0px 0px;
-}
-
-p{
-    font-family: "Amatic SC";
-    font-size: 3em;
-    color:beige;
-    position:relative;
-    float: right;
-    top:-40px;
-    right:1350px;
-    text-shadow:2px 2px 0 rgba(2,2,2,2);
 }
 
 
@@ -44,7 +28,7 @@ p{
     text-shadow: 1px 1px 0 rgba(2,2,2,2);
     height:100vh;
     width:100%;
-    background-image: url(Guitar%20Background.jpg);
+    background-image: url(boulder.jpg);
     background-size: cover;
     display:table;
     background-attachment: fixed;
@@ -53,75 +37,70 @@ p{
 #box2{
     font-family: "Amatic SC";
     font-size: 2em;
-    color:floralwhite;
+    background-color:darkgrey;
     text-shadow: 1px 1px 0 rgba(2,2,2,2);
-    height:100vh;
+    height:40%;
     width:100%;
-    background-image: url(Hockey.JPG);
-    background-size: cover;
     display:table;
     background-attachment: fixed;
 }
 
 #box3{
-    height:100vh;
+    height:105vh;
     width:100%;
-    background-image: url(Woodworking.jpg);
+    background-image: url(colorado.jpg);
     background-size: cover;    
     display:table;
     background-attachment: fixed;
 }
 
 #box4{
-    height:100vh;
+    font-family: "Amatic SC";
+    font-size: 2em;
+    text-shadow: 1px 1px 0 rgba(2,2,2,2);
+    height:40%;
     width:100%;
-    background-image: url(Producing.jpg);
+    background-color: darkgrey;
     background-size: cover;
     display:table;
     background-attachment: fixed;
-    margin-bottom: 25px
 }
-            
+ 
+#box5{
+    height:105vh;
+    width:100%;
+    background-image: url(climbing.jpg);
+    background-size: cover;    
+    display:table;
+    background-attachment: fixed;
+}
+
 h1{
     font-family: "Amatic SC";
-    font-size:3em;
+    font-size:2.5em;
     color:floralwhite;
     margin:0px;
     display:table-cell;
-    top: 125px;
+    top: 25px;
+    left:710px;
     position: relative;
+    width:250px
 }
 
-h2{
+p{
     font-family: "Amatic SC";
-    font-size:3em;
-    color:floralwhite;
-    margin:0px;
-    display:table-cell;
-    position: relative;
+    font-size:1.5em;
+    color:antiquewhite;
+    width:80%;
+    text-align: center;
+    transform: translateX(10%) translateY(30%);
+    text-indent: 50px;
 }
 
-li{
-    position:relative;
+#p1{
+   transform: translateY(13%) translateX(10%);
 }
 
-#guitarp1{
-    width:600px;
-    position:relative;
-    top:180px;
-    margin:0px;
-    padding:0px;
-    transform: translateX(-50%);
-}
-
-#hockeyp1{
-    width:600px;
-    position:relative;
-    top:50px;
-    margin:0px;
-    padding:0px;
-    transform: translateX(-50%);
-}
 
 #box1 a:active{
     text-decoration-line: none;

@@ -187,9 +187,9 @@ h3{
     font-size: 1em;
     color:black;
     position:relative;
-    text-align: right;
+    text-align: left;
     float:right;
-    width:30%;
+    width:27%;
     top:-35px;
     padding:0 0;
     margin-top: 0px;
@@ -203,10 +203,10 @@ h3{
     text-align: left;
     float:right;
     width:20%;
-    transform: translateX(170%) translateY(44%);
+    transform: translateX(150%) translateY(50%);
     padding:0 0;
     margin-top: 0px;
-    margin-right: 25px;
+    margin-right: 0px;
 }
 
 #paigel2{
@@ -225,10 +225,7 @@ h3{
 }
 
 #bailey{
-    font-family: "Amatic SC";
     font-size: 3em;
-    color:floralwhite;
-    text-shadow: 2px 2px 0 rgba(2,2,2,2);
     height:100%;
     width:100%;
     background-image: url(bailey.jpg);
@@ -239,11 +236,35 @@ h3{
     background-attachment: fixed;
 }
 
-#linnea{
+h4{
     font-family: "Amatic SC";
-    font-size: 3em;
-    color:floralwhite;
+    font-size:4em;
     text-shadow: 2px 2px 0 rgba(2,2,2,2);
+    margin-left:35px;
+    margin-top: 25px;
+    padding:0px;
+    top:500px;
+    color:beige;
+    display:table-cell;
+    position: relative;
+    float:right;
+}
+
+#baileyl{
+    font-family: "Amatic SC";
+    font-size: .75em;
+    color:black;
+    text-align: left;
+    float:left;
+    width:30%;
+    position: relative;
+    top:100px;
+    padding:0 0;
+    margin-top: 0px;
+    margin-left: 25px;
+}
+
+#linnea{
     height:100vw;
     width:100%;
     background-image: url(linnea.jpg);
@@ -254,11 +275,35 @@ h3{
     background-attachment: fixed;
 }
 
-#chuck{
+h5{
     font-family: "Amatic SC";
-    font-size: 3em;
-    color:floralwhite;
-    text-shadow: 2px 2px 0 rgba(2,2,2,2);
+    font-size:7em;
+    text-shadow: 4px 4px 0 rgba(2,2,2,2);
+    margin:0px;
+    padding:0px;
+    color:beige;
+    display:table-cell;
+    position: relative; 
+    text-align:left;
+    float:left;
+    top:115px;
+    left:15px;
+}
+
+#linneal{
+    font-family: "Amatic SC";
+    font-size: 2em;
+    color:black;
+    text-align: left;
+    float:left;
+    width:45%;
+    padding:0 0;
+    margin-top: 225px;
+    margin-left: 25px;
+    transform: translateX(-35%)
+}
+
+#chuck{
     height:100vw;
     width:100%;
     margin-bottom: 50px;
@@ -268,6 +313,33 @@ h3{
     background-position: right;
     display:table;
     background-attachment: fixed;
+}
+
+#chuckl{
+    font-family: "Amatic SC";
+    font-size: 3em;
+    color:floralwhite;
+    text-shadow: 2px 2px 0 rgba(2,2,2,2);
+    width:500px;
+    position:relative;
+    margin:0px;
+    padding:0px;
+    transform: translateX(100%) translateY(35%);
+    text-align: center;
+}
+
+h6{
+    font-family: "Amatic SC";
+    font-size:12em;
+    text-shadow: 4px 4px 0 rgba(2,2,2,2);
+    margin-right:25px;
+    margin-top: 25px;
+    padding:0px;
+    color:beige;
+    display:table-cell;
+    position: relative; 
+    text-align:left;
+    float:right;
 }
 
 
